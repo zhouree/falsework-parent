@@ -3,12 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>net.zhouree</groupId>
-	<artifactId>dependencies</artifactId>
+	<groupId>net.falsework</groupId>
+	<artifactId>falsework-dependencies</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
 
-	<name>Parent Project</name>
+	<name>Falsework Parent</name>
+	<description>Falsework Parent Project</description>
 
 	<build>
 		<defaultGoal>install</defaultGoal>
