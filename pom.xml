@@ -142,7 +142,7 @@
 	<repositories>
 		<repository>
 			<id>nexus</id>
-			<name>RepositoryProxy</name>
+			<name>Private Repositories</name>
 			<url>http://nexus.teems.cn/content/groups/public</url>
 			<snapshots>
 				<enabled>true</enabled>
@@ -150,6 +150,13 @@
 			</snapshots>
 		</repository>
 	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>nexus</id>
+			<name>Private Repositories</name>
+			<url>http://nexus.teems.cn/content/groups/public</url>
+		</pluginRepository>
+	</pluginRepositories>
 
 	<properties>
 		<!-- base setting -->
