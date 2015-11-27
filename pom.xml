@@ -11,16 +11,6 @@
 	<name>Falsework Parent</name>
 	<description>Falsework Parent Project</description>
 	
-	<modules>
-		<module>../falsework-dependencies</module>
-		<module>../falsework-util</module>
-		<module>../falsework-test</module>
-		<module>../falsework-cache</module>
-		<module>../falsework-data</module>
-		<module>../falsework-mutitenant</module>
-		<module>../falsework-demo</module>
-	</modules>
-	
 	<build>
 		<defaultGoal>install</defaultGoal>
 		<pluginManagement>
